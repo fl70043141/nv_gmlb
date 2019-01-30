@@ -67,7 +67,7 @@ class User_default_model extends CI_Model
 	{
 //	  	echo '<pre>';print_r($user_obj);echo'<pre>';die; 
         
-        $session_data = array(
+        $session_data[SYSTEM_CODE] = array(
                               'ID'              => $user_obj['0']->id,
                               'user_role_ID'    => $user_obj['0']->user_role_id,
                               'user_first_name'	=> $user_obj['0']->first_name,
@@ -80,7 +80,7 @@ class User_default_model extends CI_Model
                );
 			   
 		$this->session->set_userdata($session_data);
-        		
+        		 
 	}
         
         function check_authority($user_group,$page,$method)

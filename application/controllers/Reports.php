@@ -479,7 +479,7 @@ class Reports extends CI_Controller {
                 /* $pdf->writeHTMLCell(45, 17, 20, 0, '',0,0,TRUE); */
 
                 $pdf->writeHTMLCell(85, 37, 0, 17, $html1); 
-                $pdf->Image(base_url(COMPANY_LOGO.$this->session->userdata('company_logo')),21,1.5,45,10); 
+                $pdf->Image(base_url(COMPANY_LOGO.$this->session->userdata(SYSTEM_CODE)['company_logo']),21,1.5,45,10); 
                 
                 //QR corner
 //                $pdf->Image($qr_path,72,41,11,11,'PNG'); 

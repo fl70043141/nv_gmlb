@@ -1,6 +1,6 @@
   <?php 
      	$CI =& get_instance(); 				
-	$user_group =  $this->session->userdata('user_role_ID'); //'ADMIN';
+	$user_group =  $this->session->userdata(SYSTEM_CODE)['user_role_ID']; //'ADMIN';
         $navigation = $this->user_default_model->get_user_menu_navigation($user_group); 
 //        var_dump($navigation); die;
       
