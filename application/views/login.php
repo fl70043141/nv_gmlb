@@ -2,7 +2,7 @@
 <html lang="en" class="body-full-height">
     <head>        
         <!-- META SECTION -->
-        <title>Zone Venture Gem Lab System</title>            
+        <title>Nveloop Gem Lab System</title>            
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -46,7 +46,7 @@
                 </div>
                 <div class="login-footer">
                     <div class="pull-left">
-                        &copy; <?php echo date('Y'); ?> Zone Venture Software Solution.
+                        &copy; <?php echo date('Y'); ?>  Nveloop Solution.
                     </div>
 <!--                    <div class="pull-right">
                         <a href="#">About</a> |
